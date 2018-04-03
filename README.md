@@ -32,7 +32,7 @@ While afLib2 is packaged as an Arduino-compatible library, this major reason for
 
 ### Release Notes ###
 
-afLib2 2.0.dev 3/23/18 Release Notes
+afLib2 2.0.203 3/23/18 Release Notes
 
 * Initial release of C Afero MCU Library
 * Port all example apps to use afLib2
