@@ -92,7 +92,13 @@ char attr_print_buffer[ATTR_PRINT_BUFFER_LEN];
 # endif
 
 void setup() {
+
   Serial.begin(BAUD_RATE);
+
+  while (!Serial) { // wait for serial port to come ready
+    ;
+  }
+
   Serial.println("Hello World");
 
   // The Plinto board automatically connects reset on UNO to reset on Modulo
