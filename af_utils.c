@@ -23,7 +23,7 @@ static struct timeval start;
 #include "Arduino.h"
 #endif
 
-long af_utils_millis() {
+long af_utils_millis(void) {
 #ifndef ARDUINO
     gettimeofday(&start, NULL);
     return (start.tv_sec) * 1000 + (start.tv_usec) / 1000 ;
