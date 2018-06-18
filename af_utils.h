@@ -27,7 +27,7 @@ extern "C" {
  *
  * @return
  */
-long af_utils_millis();
+long af_utils_millis(void);
 
 
 /**
@@ -48,4 +48,3 @@ uint64_t af_utils_read_little_endian_64(const uint8_t* d);
 #endif
 
 #endif /* AF_UTILS_H */
-
